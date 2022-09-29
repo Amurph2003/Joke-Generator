@@ -11,7 +11,7 @@ import Firebase
 import Messages
 
 
-@main
+
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 let gcmMessageIDKey = "gcm.message_id"
