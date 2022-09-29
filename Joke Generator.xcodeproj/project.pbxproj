@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A16C03428E5F47D00AD2190 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A16C03328E5F47D00AD2190 /* ContentView.swift */; };
 		3A208E0728E4BCA30009BB90 /* Joke_GeneratorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A208E0628E4BCA30009BB90 /* Joke_GeneratorApp.swift */; };
 		3A208E1828E4BCA70009BB90 /* Joke_GeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A208E1728E4BCA70009BB90 /* Joke_GeneratorTests.swift */; };
 		3A208E2228E4BCA70009BB90 /* Joke_GeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A208E2128E4BCA70009BB90 /* Joke_GeneratorUITests.swift */; };
 		3A208E2428E4BCA70009BB90 /* Joke_GeneratorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A208E2328E4BCA70009BB90 /* Joke_GeneratorUITestsLaunchTests.swift */; };
 		3A208E3D28E4BCF90009BB90 /* Submit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A208E3128E4BCF60009BB90 /* Submit.swift */; };
 		3A208E3E28E4BCF90009BB90 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A208E3228E4BCF70009BB90 /* Users.swift */; };
-		3A208E3F28E4BCF90009BB90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A208E3328E4BCF70009BB90 /* ContentView.swift */; };
 		3A208E4028E4BCF90009BB90 /* Dad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A208E3428E4BCF70009BB90 /* Dad.swift */; };
 		3A208E4128E4BCF90009BB90 /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A208E3528E4BCF80009BB90 /* Favorites.swift */; };
 		3A208E4228E4BCF90009BB90 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A208E3628E4BCF80009BB90 /* SceneDelegate.swift */; };
@@ -44,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A16C03328E5F47D00AD2190 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3A208E0328E4BCA30009BB90 /* Joke Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Joke Generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A208E0628E4BCA30009BB90 /* Joke_GeneratorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke_GeneratorApp.swift; sourceTree = "<group>"; };
 		3A208E1328E4BCA70009BB90 /* Joke GeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Joke GeneratorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,7 +54,6 @@
 		3A208E2328E4BCA70009BB90 /* Joke_GeneratorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke_GeneratorUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3A208E3128E4BCF60009BB90 /* Submit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Submit.swift; sourceTree = "<group>"; };
 		3A208E3228E4BCF70009BB90 /* Users.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
-		3A208E3328E4BCF70009BB90 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "../../../Library/Mobile Documents/com~apple~CloudDocs/Joke Generator Take 2/Joke Generator Take 2/ContentView.swift"; sourceTree = "<group>"; };
 		3A208E3428E4BCF70009BB90 /* Dad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dad.swift; sourceTree = "<group>"; };
 		3A208E3528E4BCF80009BB90 /* Favorites.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
 		3A208E3628E4BCF80009BB90 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -118,7 +118,7 @@
 				3A208E3A28E4BCF90009BB90 /* Animal.swift */,
 				3A208E3928E4BCF90009BB90 /* AppDelegate.swift */,
 				3A208E3828E4BCF80009BB90 /* BadJokes.swift */,
-				3A208E3328E4BCF70009BB90 /* ContentView.swift */,
+				3A16C03328E5F47D00AD2190 /* ContentView.swift */,
 				3A208E3428E4BCF70009BB90 /* Dad.swift */,
 				3A208E3528E4BCF80009BB90 /* Favorites.swift */,
 				3A208E3728E4BCF80009BB90 /* Funny.swift */,
@@ -280,13 +280,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A208E4528E4BCF90009BB90 /* AppDelegate.swift in Sources */,
+				3A16C03428E5F47D00AD2190 /* ContentView.swift in Sources */,
 				3A208E4028E4BCF90009BB90 /* Dad.swift in Sources */,
 				3A208E4628E4BCF90009BB90 /* Animal.swift in Sources */,
 				3A208E4228E4BCF90009BB90 /* SceneDelegate.swift in Sources */,
 				3A208E4428E4BCF90009BB90 /* BadJokes.swift in Sources */,
 				3A208E4728E4BCF90009BB90 /* PickUps.swift in Sources */,
 				3A208E4328E4BCF90009BB90 /* Funny.swift in Sources */,
-				3A208E3F28E4BCF90009BB90 /* ContentView.swift in Sources */,
 				3A208E3E28E4BCF90009BB90 /* Users.swift in Sources */,
 				3A208E4128E4BCF90009BB90 /* Favorites.swift in Sources */,
 				3A208E0728E4BCA30009BB90 /* Joke_GeneratorApp.swift in Sources */,
