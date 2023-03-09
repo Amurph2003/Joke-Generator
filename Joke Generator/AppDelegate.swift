@@ -36,6 +36,7 @@ let gcmMessageIDKey = "gcm.message_id"
     Messaging.messaging().delegate = self
         FirebaseApp.configure()
         UserDefaults.standard.synchronize()
+        print("Application directory: \(NSHomeDirectory())")
         return true
     }
 

@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+func addAnimalJokes() {
+    let animal
+}

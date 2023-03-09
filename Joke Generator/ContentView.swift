@@ -25,10 +25,10 @@ struct ActivityViewController: UIViewControllerRepresentable {
 
 }
 
-// var Category = "Blank"
 let darkYellow = Color(red: 225.0/255.0, green: 173.0/255.0, blue: 1.0/255.0)
 
 struct ContentView: View {
+    @FetchRequest(sortDescriptors: [SortDescriptor(\.id)]) var alljokes: FetchedResults<Joke>
     var body: some View{
         NavigationView{
             ZStack{
@@ -39,9 +39,12 @@ struct ContentView: View {
                             .foregroundColor(Color.blue)
                             .font(Font.custom("SignPainter", size: 70))
                             .offset(x: 0, y: -25)
-                            .multilineTextAlignment(.center)                   
+                            .multilineTextAlignment(.center)
+                    List (alljokes) {data in
+                        Text(data.id ?? "None")
+                    }
                     ScrollView{
-                        NavigationLink("Animal Jokes", destination: Animal())
+                        NavigationLink("Animal Jokes", destination: TellJoke().onAppear{getJokes(fileName: "AnimalJokes")})
                             .foregroundColor(Color.red)
                             .font(Font.custom("SignPainter", size: 40))
                             .padding()
